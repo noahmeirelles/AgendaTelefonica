@@ -8,19 +8,23 @@
     <title>Agenda Telefônica</title>
 </head>
 <body>
-    <div>
+    <div id="container">
         <h1>Agenda Telefônica</h1>
-        <input type="text" placeholder="Nome Completo">
-        <input type="text" placeholder="Telefone Fixo">
-        <input type="text" placeholder="Telefone Celular">
-        <input type="text" placeholder="URL da foto">
-        <input type="date">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="CEP">
-        <input type="text" placeholder="Cidade">
-        <input type="text" placeholder="@instagram">
-        <input type="text" placeholder="@Github">
-        <button class="blue">Adicionar Contato</button>
+        <input type="text" placeholder="Nome Completo" id="name">
+        <input type="number" placeholder="Telefone Fixo" id="fixo">
+        <input type="number" placeholder="Telefone Celular" id="celular">
+        <input type="text" placeholder="URL da foto" id="image">
+        <input type="date" id="calendario">
+        <input type="text" placeholder="E-mail" id="email">
+        <input type="number" placeholder="CEP" id="cep">
+        <input type="text" placeholder="Cidade" id="cidade">
+        <input type="text" placeholder="@instagram" id="insta">
+        <input type="text" placeholder="@Github" id="git">
+        <button class="blue" onclick="cadastrar()">Adicionar Contato</button>
+        <p id="msg"></p>
+    </div>
+    <div id="list-container">
+        
     </div>
 </body>
 </html>
